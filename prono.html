@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منوعات برمجية</title>
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    direction: rtl;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #007BFF, #00A8FF);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero button {
+    background-color: white;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #f0f0f0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>منوعات برمجية</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">الدروس</a></li>
+                <li><a href="#">المقالات</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>تعلم البرمجة خطوة بخطوة</h2>
+        <p>هنا ستجد دروسًا ومقالات تساعدك على احتراف البرمجة بلغات مختلفة.</p>
+        <button>ابدأ التعلم الآن</button>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <h3>HTML</h3>
+            <p>تعلم أساسيات لغة HTML لبناء هيكل صفحات الويب.</p>
+        </div>
+        <div class="card">
+            <h3>CSS</h3>
+            <p>تعلم تنسيق صفحات الويب باستخدام CSS بأسلوب احترافي.</p>
+        </div>
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>ابدأ بكتابة أكواد تجعل موقعك ديناميكي ومتفاعل.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة - منوعات برمجية</p>
+    </footer>
+</body>
+</html>
